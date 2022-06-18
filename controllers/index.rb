@@ -23,6 +23,7 @@ def read_file()
             newArray.push({ value: a_file_array[i].to_i(), color: Gosu::Color::BLUE })
         end
 
+        @block_width = SCREEN_WIDTH / newArray.length()
         @array_length = newArray.length()
         @array = newArray
     end
