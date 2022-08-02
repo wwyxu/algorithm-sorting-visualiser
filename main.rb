@@ -144,6 +144,7 @@ class AlgorithmVisualiser < Gosu::Window
                     @speed = $speeds[i][:value]
                 end
             end
+            
             when Gosu::KbLeft
                 generate_new_array()
             when Gosu::KbSpace
